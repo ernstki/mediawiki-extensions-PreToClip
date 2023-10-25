@@ -18,10 +18,10 @@
 
 		var clipboardText = pre.innerText;
 		var tooltip = mw.message( 'pretoclip-button-tooltip' ).text();
-		var copyButton = document.createElement( 'button' );
 
 		var copyButton = new OO.ui.ButtonWidget( {
 			icon: 'copy',
+			label: 'Copy',
 			classes: [ 'pretoclip-copy-button' ],
 			tabIndexed: true,
 			title: tooltip,
